@@ -1,0 +1,1704 @@
+ffmpeg version N-106928-g163e737c17-20220515 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.0 (crosstool-NG 1.24.0.533_681aaef)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libmfx --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --disable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20220515
+  libavutil      57. 24.101 / 57. 24.101
+  libavcodec     59. 28.100 / 59. 28.100
+  libavformat    59. 24.100 / 59. 24.100
+  libavdevice    59.  6.100 / 59.  6.100
+  libavfilter     8. 38.100 /  8. 38.100
+  libswscale      6.  6.100 /  6.  6.100
+  libswresample   4.  6.100 /  4.  6.100
+  libpostproc    56.  5.100 / 56.  5.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/jodij/AppData/Local/Temp/KritaFFmpegProgress.Joujtv'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '12'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '12'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame%04d.png'.
+Reading option '-crf' ... matched as AVOption 'crf' with argument '23'.
+Reading option '-preset' ... matched as AVOption 'preset' with argument 'medium'.
+Reading option '-profile:v' ... matched as option 'profile' (set profile) with argument 'baseline'.
+Reading option '-pix_fmt' ... matched as option 'pix_fmt' (set pixel format) with argument 'yuv420p'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/Cafe Animation 2.mp4' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/jodij/AppData/Local/Temp/KritaFFmpegProgress.Joujtv.
+[file @ 00000139abfc2ec0] Setting default whitelist 'file,crypto,data'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 12.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame%04d.png.
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0012.png' for reading
+[file @ 00000139aa4ccc00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139ac00d000] Statistics: 482202 bytes read, 0 seeks
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0013.png' for reading
+[file @ 00000139ac082f80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139aa4cec80] Statistics: 471934 bytes read, 0 seeks
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0014.png' for reading
+[file @ 00000139aa4cec80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139aa4cedc0] Statistics: 471934 bytes read, 0 seeks
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0015.png' for reading
+[file @ 00000139aa4cec80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139ac00c3c0] Statistics: 471934 bytes read, 0 seeks
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0016.png' for reading
+[file @ 00000139ac00c3c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139ac00c4c0] Statistics: 471934 bytes read, 0 seeks
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0017.png' for reading
+[file @ 00000139ac00c3c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139ac00cf40] Statistics: 471934 bytes read, 0 seeks
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0018.png' for reading
+[file @ 00000139ac00cf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139ac00c440] Statistics: 482434 bytes read, 0 seeks
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0019.png' for reading
+[file @ 00000139ac00cf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139ac00c440] Statistics: 482434 bytes read, 0 seeks
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0020.png' for reading
+[file @ 00000139ac00cf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139ac00c440] Statistics: 475953 bytes read, 0 seeks
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0021.png' for reading
+[file @ 00000139ac00cf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139ac00c440] Statistics: 472687 bytes read, 0 seeks
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0022.png' for reading
+[file @ 00000139ac00cf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139ac00c3c0] Statistics: 472687 bytes read, 0 seeks
+[image2 @ 00000139ac0033c0] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame%04d.png':
+  Duration: 00:00:15.40, start: 0.000000, bitrate: N/A
+  Stream #0:0, 11, 1/25: Video: png, 1 reference frame, rgba(pc), 1920x1080 [SAR 11811:11811 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn
+Successfully opened the file.
+Parsing a group of options: output url C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/Cafe Animation 2.mp4.
+Applying option profile:v (set profile) with argument baseline.
+Applying option pix_fmt (set pixel format) with argument yuv420p.
+Successfully parsed a group of options.
+Opening an output file: C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/Cafe Animation 2.mp4.
+[file @ 00000139aca80100] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[graph 0 input from stream 0:0 @ 00000139ace204c0] Setting 'video_size' to value '1920x1080'
+[graph 0 input from stream 0:0 @ 00000139ace204c0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 00000139ace204c0] Setting 'time_base' to value '1/12'
+[graph 0 input from stream 0:0 @ 00000139ace204c0] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 00000139ace204c0] Setting 'frame_rate' to value '12/1'
+[graph 0 input from stream 0:0 @ 00000139ace204c0] w:1920 h:1080 pixfmt:rgba tb:1/12 fr:12/1 sar:11811/11811
+[format @ 00000139ace20880] Setting 'pix_fmts' to value 'yuv420p'
+[auto_scale_0 @ 00000139ace20d00] w:iw h:ih flags:'' interl:0
+[format @ 00000139ace20880] auto-inserting filter 'auto_scale_0' between the filter 'Parsed_null_0' and the filter 'format'
+[AVFilterGraph @ 00000139ac00c240] query_formats: 4 queried, 3 merged, 1 already done, 0 delayed
+[auto_scale_0 @ 00000139ace20d00] w:1920 h:1080 fmt:rgba sar:11811/11811 -> w:1920 h:1080 fmt:yuv420p sar:1/1 flags:0x0
+    Last message repeated 3 times
+[libx264 @ 00000139aca7d100] using mv_range_thread = 40
+[libx264 @ 00000139aca7d100] using SAR=1/1
+[libx264 @ 00000139aca7d100] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 00000139aca7d100] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 00000139aca7d100] 264 - core 164 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=12 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/Cafe Animation 2.mp4':
+  Metadata:
+    encoder         : Lavf59.24.100
+  Stream #0:0, 0, 1/12288: Video: h264, 1 reference frame (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080 (0x0) [SAR 1:1 DAR 16:9], 0/1, q=2-31, 12 fps, 12288 tbn
+    Metadata:
+      encoder         : Lavc59.28.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+Clipping frame in rate conversion by 0.000008
+frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 2 times
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0023.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 472687 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0024.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 472687 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0025.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 482445 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0026.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 482445 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0027.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 475953 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0028.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 471858 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0029.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 471858 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0030.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 471858 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0031.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 471858 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0032.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 471858 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0033.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 471858 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0034.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 471858 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0035.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 483885 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0036.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 483885 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0037.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 483885 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0038.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 483885 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0039.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 483885 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0040.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 483885 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0041.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 483885 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0042.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1634637 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0043.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1634637 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0044.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1634637 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0045.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1628066 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0046.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1622014 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0047.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1622014 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0048.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1622014 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0049.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1658021 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0050.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1658021 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0051.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1658021 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0052.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1658021 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0053.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1658599 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0054.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1658599 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0055.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1659057 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0056.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1659057 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0057.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1658195 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0058.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1658195 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0059.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1658325 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0060.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1658706 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0061.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1650027 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0062.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1623766 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0063.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1623766 bytes read, 0 seeks
+frame=   44 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0064.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1623766 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0065.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1623766 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0066.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1623766 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0067.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1623766 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0068.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1635053 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0069.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1635053 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0070.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1635053 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0071.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1635053 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0072.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1635053 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0073.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1635053 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=   0 QP=13.90 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=88973 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0074.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1635053 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=   1 QP=18.08 NAL=2 Slice:P Poc:2   I:620  P:463  SKIP:7077 size=22201 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0075.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1635053 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=   2 QP=15.23 NAL=2 Slice:P Poc:4   I:18   P:76   SKIP:8066 size=369 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0076.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 631595 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=   3 QP=13.59 NAL=2 Slice:P Poc:6   I:2    P:14   SKIP:8144 size=72 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0077.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 631595 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=   4 QP=8.65 NAL=2 Slice:P Poc:8   I:2    P:7    SKIP:8151 size=66 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0078.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 631595 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=   5 QP=8.15 NAL=2 Slice:P Poc:10  I:4    P:2    SKIP:8154 size=39 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0079.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 631595 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=   6 QP=17.92 NAL=2 Slice:P Poc:12  I:588  P:271  SKIP:7301 size=15302 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0080.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 631595 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=   7 QP=9.74 NAL=2 Slice:P Poc:14  I:16   P:37   SKIP:8107 size=214 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0081.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 631595 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=   8 QP=18.84 NAL=2 Slice:P Poc:16  I:295  P:527  SKIP:7338 size=8749 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0082.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 631595 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=   9 QP=15.98 NAL=2 Slice:P Poc:18  I:183  P:384  SKIP:7593 size=9842 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0083.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 631595 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  10 QP=15.47 NAL=2 Slice:P Poc:20  I:6    P:22   SKIP:8132 size=108 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0084.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 631595 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  11 QP=7.80 NAL=2 Slice:P Poc:22  I:1    P:7    SKIP:8152 size=49 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0085.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 597161 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  12 QP=9.28 NAL=2 Slice:P Poc:24  I:2    P:4    SKIP:8154 size=46 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0086.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 597161 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  13 QP=16.93 NAL=2 Slice:P Poc:26  I:593  P:237  SKIP:7330 size=15764 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0087.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 597161 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  14 QP=8.78 NAL=2 Slice:P Poc:28  I:21   P:36   SKIP:8103 size=260 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0088.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 597161 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  15 QP=17.55 NAL=2 Slice:P Poc:30  I:303  P:543  SKIP:7314 size=9359 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0089.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 597161 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  16 QP=16.01 NAL=2 Slice:P Poc:32  I:195  P:366  SKIP:7599 size=10952 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0090.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 553342 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  17 QP=15.71 NAL=2 Slice:P Poc:34  I:7    P:35   SKIP:8118 size=188 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0091.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 553342 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] scene cut at 30 Icost:3114344 Pcost:3089429 ratio:0.0080 bias:0.1227 gop:30 (imb:7744 pmb:44)
+[libx264 @ 00000139aca7d100] frame=  18 QP=9.13 NAL=2 Slice:P Poc:36  I:1    P:6    SKIP:8153 size=35 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0092.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 553342 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  19 QP=12.24 NAL=2 Slice:P Poc:38  I:0    P:5    SKIP:8155 size=33 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0093.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 553342 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  20 QP=11.56 NAL=2 Slice:P Poc:40  I:1    P:7    SKIP:8152 size=58 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0094.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 553342 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  21 QP=7.68 NAL=2 Slice:P Poc:42  I:5    P:7    SKIP:8148 size=84 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0095.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 553342 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  22 QP=8.51 NAL=2 Slice:P Poc:44  I:4    P:4    SKIP:8152 size=48 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0096.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 553702 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  23 QP=17.21 NAL=2 Slice:P Poc:46  I:525  P:251  SKIP:7384 size=18424 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0097.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 553702 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  24 QP=12.29 NAL=2 Slice:P Poc:48  I:11   P:24   SKIP:8125 size=140 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0098.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 553702 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  25 QP=10.85 NAL=2 Slice:P Poc:50  I:7    P:2    SKIP:8151 size=33 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0099.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 553702 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  26 QP=10.39 NAL=2 Slice:P Poc:52  I:0    P:2    SKIP:8158 size=21 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0100.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 553702 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  27 QP=9.00 NAL=2 Slice:P Poc:54  I:0    P:1    SKIP:8159 size=16 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0101.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 553702 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  28 QP=10.00 NAL=2 Slice:P Poc:56  I:0    P:2    SKIP:8158 size=31 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0102.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 553702 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  29 QP=11.00 NAL=2 Slice:P Poc:58  I:0    P:1    SKIP:8159 size=18 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0103.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 553702 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  30 QP=10.43 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=234942 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0104.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 553702 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  31 QP=13.70 NAL=2 Slice:P Poc:2   I:0    P:490  SKIP:7670 size=1885 bytes
+frame=   85 fps= 73 q=26.0 size=     256kB time=00:00:02.58 bitrate= 811.9kbits/s speed=2.23x    [image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0105.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1032513 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  32 QP=11.09 NAL=2 Slice:P Poc:4   I:0    P:221  SKIP:7939 size=875 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0106.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1032513 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  33 QP=14.32 NAL=2 Slice:P Poc:6   I:54   P:388  SKIP:7718 size=5016 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0107.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1032513 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  34 QP=14.36 NAL=2 Slice:P Poc:8   I:29   P:341  SKIP:7790 size=3395 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0108.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1032513 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  35 QP=10.27 NAL=2 Slice:P Poc:10  I:5    P:171  SKIP:7984 size=680 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0109.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1024494 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  36 QP=10.55 NAL=2 Slice:P Poc:12  I:0    P:144  SKIP:8016 size=585 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0110.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1024494 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  37 QP=15.81 NAL=2 Slice:P Poc:14  I:149  P:1090 SKIP:6921 size=20124 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0111.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1024494 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  38 QP=12.75 NAL=2 Slice:P Poc:16  I:6    P:207  SKIP:7947 size=922 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0112.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1024494 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  39 QP=11.00 NAL=2 Slice:P Poc:18  I:1    P:163  SKIP:7996 size=660 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0113.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1024494 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  40 QP=11.25 NAL=2 Slice:P Poc:20  I:1    P:144  SKIP:8015 size=591 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0114.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1037184 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  41 QP=15.45 NAL=2 Slice:P Poc:22  I:177  P:1002 SKIP:6981 size=25667 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0115.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1037184 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  42 QP=12.93 NAL=2 Slice:P Poc:24  I:5    P:233  SKIP:7922 size=1026 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0116.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 859713 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  43 QP=12.31 NAL=2 Slice:P Poc:26  I:7    P:190  SKIP:7963 size=1214 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0117.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 859713 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  44 QP=11.75 NAL=2 Slice:P Poc:28  I:2    P:144  SKIP:8014 size=557 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0118.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 736575 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  45 QP=12.22 NAL=2 Slice:P Poc:30  I:2    P:170  SKIP:7988 size=1011 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0119.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 736575 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  46 QP=11.54 NAL=2 Slice:P Poc:32  I:1    P:126  SKIP:8033 size=496 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0120.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1490342 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  47 QP=12.28 NAL=2 Slice:P Poc:34  I:20   P:140  SKIP:8000 size=1495 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0121.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1490342 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  48 QP=12.12 NAL=2 Slice:P Poc:36  I:72   P:131  SKIP:7957 size=725 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0122.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1490342 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  49 QP=12.68 NAL=2 Slice:P Poc:38  I:338  P:169  SKIP:7653 size=2838 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0123.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1691582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  50 QP=13.73 NAL=2 Slice:P Poc:40  I:286  P:153  SKIP:7721 size=3583 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0124.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1691582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  51 QP=12.60 NAL=2 Slice:P Poc:42  I:2    P:127  SKIP:8031 size=525 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0125.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1691582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] scene cut at 64 Icost:1634867 Pcost:1608406 ratio:0.0162 bias:0.1277 gop:34 (imb:7737 pmb:51)
+[libx264 @ 00000139aca7d100] frame=  52 QP=12.32 NAL=2 Slice:P Poc:44  I:2    P:74   SKIP:8084 size=314 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0126.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1691582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  53 QP=11.86 NAL=2 Slice:P Poc:46  I:3    P:73   SKIP:8084 size=324 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0127.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1691582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  54 QP=12.13 NAL=2 Slice:P Poc:48  I:1    P:49   SKIP:8110 size=217 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0128.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1691582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  55 QP=11.94 NAL=2 Slice:P Poc:50  I:1    P:25   SKIP:8134 size=136 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0129.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1689899 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  56 QP=16.88 NAL=2 Slice:P Poc:52  I:42   P:96   SKIP:8022 size=3519 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0130.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1689899 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  57 QP=12.26 NAL=2 Slice:P Poc:54  I:1    P:25   SKIP:8134 size=133 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0131.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1690145 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  58 QP=11.63 NAL=2 Slice:P Poc:56  I:0    P:8    SKIP:8152 size=54 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0132.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1690145 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  59 QP=11.62 NAL=2 Slice:P Poc:58  I:0    P:4    SKIP:8156 size=33 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0133.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1690145 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  60 QP=12.17 NAL=2 Slice:P Poc:60  I:0    P:2    SKIP:8158 size=24 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0134.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1690735 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  61 QP=11.71 NAL=2 Slice:P Poc:62  I:0    P:3    SKIP:8157 size=28 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0135.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1690735 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  62 QP=12.80 NAL=2 Slice:P Poc:64  I:0    P:3    SKIP:8157 size=28 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0136.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1690735 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  63 QP=13.21 NAL=2 Slice:P Poc:66  I:1    P:2    SKIP:8157 size=48 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0137.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1690735 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  64 QP=10.52 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=83165 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0138.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1690735 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  65 QP=16.39 NAL=2 Slice:P Poc:2   I:13   P:377  SKIP:7770 size=1213 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0139.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1690735 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  66 QP=13.84 NAL=2 Slice:P Poc:4   I:7    P:66   SKIP:8087 size=274 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0140.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1690735 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  67 QP=12.35 NAL=2 Slice:P Poc:6   I:4    P:68   SKIP:8088 size=304 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0141.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1714025 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  68 QP=12.26 NAL=2 Slice:P Poc:8   I:5    P:56   SKIP:8099 size=254 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0142.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1714025 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  69 QP=13.17 NAL=2 Slice:P Poc:10  I:2    P:36   SKIP:8122 size=169 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0143.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1714025 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  70 QP=14.37 NAL=2 Slice:P Poc:12  I:5    P:43   SKIP:8112 size=233 bytes
+frame=  124 fps= 74 q=26.0 size=     512kB time=00:00:05.83 bitrate= 719.1kbits/s speed=3.49x    [image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0144.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1714025 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  71 QP=14.26 NAL=2 Slice:P Poc:14  I:4    P:37   SKIP:8119 size=187 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0145.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1714025 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  72 QP=13.64 NAL=2 Slice:P Poc:16  I:5    P:19   SKIP:8136 size=129 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0146.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1714025 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  73 QP=20.50 NAL=2 Slice:P Poc:18  I:2722 P:53   SKIP:5385 size=25831 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0147.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1714025 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  74 QP=16.48 NAL=2 Slice:P Poc:20  I:7    P:73   SKIP:8080 size=343 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0148.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1697112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  75 QP=16.75 NAL=2 Slice:P Poc:22  I:1    P:23   SKIP:8136 size=108 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0149.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1697112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  76 QP=12.88 NAL=2 Slice:P Poc:24  I:3    P:16   SKIP:8141 size=127 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0150.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1697112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  77 QP=13.42 NAL=2 Slice:P Poc:26  I:1    P:12   SKIP:8147 size=65 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0151.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1697112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  78 QP=18.54 NAL=2 Slice:P Poc:28  I:2458 P:322  SKIP:5380 size=40154 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0152.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1697112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  79 QP=19.19 NAL=2 Slice:P Poc:30  I:15   P:329  SKIP:7816 size=1270 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0153.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1697112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  80 QP=12.86 NAL=2 Slice:P Poc:32  I:5    P:72   SKIP:8083 size=273 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0154.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1697112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] scene cut at 93 Icost:2549123 Pcost:2520577 ratio:0.0112 bias:0.1214 gop:29 (imb:7717 pmb:71)
+[libx264 @ 00000139aca7d100] frame=  81 QP=13.30 NAL=2 Slice:P Poc:34  I:3    P:35   SKIP:8122 size=151 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0155.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1697112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  82 QP=10.81 NAL=2 Slice:P Poc:36  I:3    P:20   SKIP:8137 size=100 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0156.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1697112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  83 QP=12.93 NAL=2 Slice:P Poc:38  I:2    P:30   SKIP:8128 size=126 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0157.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1697112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  84 QP=19.13 NAL=2 Slice:P Poc:40  I:84   P:106  SKIP:7970 size=4145 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0158.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1446719 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  85 QP=16.74 NAL=2 Slice:P Poc:42  I:2    P:28   SKIP:8130 size=129 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0159.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1446719 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  86 QP=15.29 NAL=2 Slice:P Poc:44  I:2    P:18   SKIP:8140 size=86 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0160.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1446719 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  87 QP=16.63 NAL=2 Slice:P Poc:46  I:4    P:15   SKIP:8141 size=78 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0161.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1437940 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  88 QP=9.86 NAL=2 Slice:P Poc:48  I:3    P:11   SKIP:8146 size=59 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0162.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1437940 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  89 QP=14.61 NAL=2 Slice:P Poc:50  I:3    P:13   SKIP:8144 size=90 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0163.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1437940 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  90 QP=17.06 NAL=2 Slice:P Poc:52  I:2    P:11   SKIP:8147 size=63 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0164.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1437940 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  91 QP=17.14 NAL=2 Slice:P Poc:54  I:2    P:13   SKIP:8145 size=69 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0165.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1612316 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  92 QP=14.52 NAL=2 Slice:P Poc:56  I:4    P:10   SKIP:8146 size=96 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0166.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1612316 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  93 QP=10.31 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=139917 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0167.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1637730 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  94 QP=16.25 NAL=2 Slice:P Poc:2   I:0    P:485  SKIP:7675 size=1643 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0168.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1637730 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  95 QP=12.02 NAL=2 Slice:P Poc:4   I:0    P:211  SKIP:7949 size=730 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0169.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1637730 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  96 QP=15.68 NAL=2 Slice:P Poc:6   I:0    P:136  SKIP:8024 size=482 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0170.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1637730 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] scene cut at 108 Icost:2769694 Pcost:2749228 ratio:0.0074 bias:0.1038 gop:15 (imb:7729 pmb:59)
+[libx264 @ 00000139aca7d100] frame=  97 QP=17.69 NAL=2 Slice:P Poc:8   I:655  P:189  SKIP:7316 size=17862 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0171.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1636806 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  98 QP=16.69 NAL=2 Slice:P Poc:10  I:5    P:80   SKIP:8075 size=386 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0172.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1475334 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame=  99 QP=12.86 NAL=2 Slice:P Poc:12  I:0    P:26   SKIP:8134 size=119 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0173.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1259193 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 100 QP=13.20 NAL=2 Slice:P Poc:14  I:0    P:23   SKIP:8137 size=110 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0174.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1142841 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 101 QP=15.31 NAL=2 Slice:P Poc:16  I:0    P:9    SKIP:8151 size=51 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0175.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1142688 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 102 QP=18.17 NAL=2 Slice:P Poc:18  I:904  P:282  SKIP:6974 size=22983 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0176.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1127751 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 103 QP=16.43 NAL=2 Slice:P Poc:20  I:12   P:63   SKIP:8085 size=273 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0177.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1105059 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 104 QP=20.22 NAL=2 Slice:P Poc:22  I:1996 P:166  SKIP:5998 size=23937 bytes
+frame=  158 fps= 73 q=26.0 size=     768kB time=00:00:08.66 bitrate= 726.0kbits/s speed=3.99x    [image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0178.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1116898 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 105 QP=16.89 NAL=2 Slice:P Poc:24  I:24   P:87   SKIP:8049 size=385 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0179.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1116898 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 106 QP=21.02 NAL=2 Slice:P Poc:26  I:1871 P:154  SKIP:6135 size=19865 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0180.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1220503 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 107 QP=12.88 NAL=2 Slice:P Poc:28  I:11   P:40   SKIP:8109 size=164 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0181.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1183875 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 108 QP=9.30 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=226851 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0182.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1337004 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 109 QP=13.83 NAL=2 Slice:P Poc:2   I:1    P:289  SKIP:7870 size=1262 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0183.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1387037 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 110 QP=11.90 NAL=2 Slice:P Poc:4   I:0    P:133  SKIP:8027 size=491 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0184.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1374346 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 111 QP=14.54 NAL=2 Slice:P Poc:6   I:1322 P:629  SKIP:6209 size=37274 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0185.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1391792 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 112 QP=13.79 NAL=2 Slice:P Poc:8   I:6    P:497  SKIP:7657 size=2298 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0186.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1391635 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 113 QP=11.93 NAL=2 Slice:P Poc:10  I:1    P:307  SKIP:7852 size=1360 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0187.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1640597 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 114 QP=11.41 NAL=2 Slice:P Poc:12  I:0    P:240  SKIP:7920 size=935 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0188.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1640597 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 115 QP=11.28 NAL=2 Slice:P Poc:14  I:1    P:201  SKIP:7958 size=770 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0189.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1640597 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 116 QP=11.29 NAL=2 Slice:P Poc:16  I:0    P:183  SKIP:7977 size=668 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0190.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1907940 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 117 QP=12.28 NAL=2 Slice:P Poc:18  I:25   P:265  SKIP:7870 size=3451 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0191.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1907940 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 118 QP=11.67 NAL=2 Slice:P Poc:20  I:0    P:181  SKIP:7979 size=673 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0192.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1907940 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 119 QP=12.19 NAL=2 Slice:P Poc:22  I:22   P:168  SKIP:7970 size=1601 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0193.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1908339 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 120 QP=11.76 NAL=2 Slice:P Poc:24  I:0    P:169  SKIP:7991 size=613 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0194.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1908339 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 121 QP=11.37 NAL=2 Slice:P Poc:26  I:1    P:159  SKIP:8000 size=577 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0195.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1908339 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 122 QP=11.65 NAL=2 Slice:P Poc:28  I:8    P:181  SKIP:7971 size=1506 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0196.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1910766 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 123 QP=11.39 NAL=2 Slice:P Poc:30  I:0    P:161  SKIP:7999 size=590 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0197.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1910766 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 124 QP=11.42 NAL=2 Slice:P Poc:32  I:0    P:153  SKIP:8007 size=560 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0198.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1910766 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 125 QP=11.43 NAL=2 Slice:P Poc:34  I:2    P:147  SKIP:8011 size=547 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0199.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1910766 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 126 QP=11.51 NAL=2 Slice:P Poc:36  I:1    P:146  SKIP:8013 size=541 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0200.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1934959 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 127 QP=12.08 NAL=2 Slice:P Poc:38  I:2    P:142  SKIP:8016 size=546 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0201.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1934959 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 128 QP=11.57 NAL=2 Slice:P Poc:40  I:0    P:139  SKIP:8021 size=520 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0202.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1934959 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 129 QP=14.22 NAL=2 Slice:P Poc:42  I:380  P:332  SKIP:7448 size=13229 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0203.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1935915 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 130 QP=14.19 NAL=2 Slice:P Poc:44  I:5    P:140  SKIP:8015 size=586 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0204.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1935915 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 131 QP=12.81 NAL=2 Slice:P Poc:46  I:1    P:84   SKIP:8075 size=332 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0205.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1935915 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 132 QP=12.20 NAL=2 Slice:P Poc:48  I:1    P:64   SKIP:8095 size=264 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0206.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1914964 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 133 QP=12.27 NAL=2 Slice:P Poc:50  I:1    P:42   SKIP:8117 size=198 bytes
+frame=  187 fps= 70 q=26.0 size=    1024kB time=00:00:11.08 bitrate= 756.9kbits/s speed=4.15x    [image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0207.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1914964 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] scene cut at 146 Icost:2680112 Pcost:2663251 ratio:0.0063 bias:0.1328 gop:38 (imb:7734 pmb:54)
+[libx264 @ 00000139aca7d100] frame= 134 QP=13.17 NAL=2 Slice:P Poc:52  I:0    P:42   SKIP:8118 size=183 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0208.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1914964 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 135 QP=13.29 NAL=2 Slice:P Poc:54  I:0    P:38   SKIP:8122 size=167 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0209.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1912070 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 136 QP=14.05 NAL=2 Slice:P Poc:56  I:133  P:128  SKIP:7899 size=5271 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0210.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1912070 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 137 QP=15.11 NAL=2 Slice:P Poc:58  I:2    P:42   SKIP:8116 size=216 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0211.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1908635 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 138 QP=13.84 NAL=2 Slice:P Poc:60  I:2    P:23   SKIP:8135 size=111 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0212.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1908635 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 139 QP=14.20 NAL=2 Slice:P Poc:62  I:1    P:23   SKIP:8136 size=108 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0213.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1912575 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 140 QP=14.42 NAL=2 Slice:P Poc:64  I:1    P:20   SKIP:8139 size=99 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0214.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1912575 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 141 QP=15.46 NAL=2 Slice:P Poc:66  I:1    P:11   SKIP:8148 size=63 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0215.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1912721 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 142 QP=17.44 NAL=2 Slice:P Poc:68  I:0    P:5    SKIP:8155 size=34 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0216.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1912721 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 143 QP=18.21 NAL=2 Slice:P Poc:70  I:1    P:5    SKIP:8154 size=43 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0217.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1912721 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 144 QP=15.49 NAL=2 Slice:P Poc:72  I:2    P:3    SKIP:8155 size=42 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0218.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1912721 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 145 QP=19.10 NAL=2 Slice:P Poc:74  I:1    P:3    SKIP:8156 size=33 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0219.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1911047 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 146 QP=10.91 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=170379 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0220.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1911047 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 147 QP=12.98 NAL=2 Slice:P Poc:2   I:0    P:569  SKIP:7591 size=1917 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0221.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1911047 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 148 QP=11.76 NAL=2 Slice:P Poc:4   I:0    P:218  SKIP:7942 size=748 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0222.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1911047 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 149 QP=12.49 NAL=2 Slice:P Poc:6   I:70   P:195  SKIP:7895 size=1889 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0223.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1911047 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 150 QP=11.05 NAL=2 Slice:P Poc:8   I:2    P:190  SKIP:7968 size=706 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0224.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1910931 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 151 QP=11.91 NAL=2 Slice:P Poc:10  I:0    P:116  SKIP:8044 size=451 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0225.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1911631 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 152 QP=11.88 NAL=2 Slice:P Poc:12  I:2    P:63   SKIP:8095 size=282 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0226.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1911631 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 153 QP=17.82 NAL=2 Slice:P Poc:14  I:1037 P:1530 SKIP:5593 size=41374 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0227.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1911749 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 154 QP=14.63 NAL=2 Slice:P Poc:16  I:9    P:378  SKIP:7773 size=1409 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0228.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1914271 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 155 QP=17.67 NAL=2 Slice:P Poc:18  I:449  P:1396 SKIP:6315 size=24298 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0229.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1914271 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 156 QP=15.86 NAL=2 Slice:P Poc:20  I:8    P:309  SKIP:7843 size=1179 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0230.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1914271 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 157 QP=12.26 NAL=2 Slice:P Poc:22  I:2    P:131  SKIP:8027 size=506 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0231.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1914271 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 158 QP=12.17 NAL=2 Slice:P Poc:24  I:2    P:92   SKIP:8066 size=376 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0232.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1914271 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 159 QP=15.80 NAL=2 Slice:P Poc:26  I:41   P:235  SKIP:7884 size=2819 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0233.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1912132 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 160 QP=13.82 NAL=2 Slice:P Poc:28  I:581  P:111  SKIP:7468 size=8913 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0234.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1912132 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 161 QP=16.43 NAL=2 Slice:P Poc:30  I:1590 P:401  SKIP:6169 size=22664 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0235.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1897274 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 162 QP=16.27 NAL=2 Slice:P Poc:32  I:1262 P:944  SKIP:5954 size=24248 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0236.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1897274 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 163 QP=16.18 NAL=2 Slice:P Poc:34  I:25   P:179  SKIP:7956 size=1008 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0237.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1897274 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 164 QP=17.49 NAL=2 Slice:P Poc:36  I:471  P:838  SKIP:6851 size=15888 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0238.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1897274 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 165 QP=18.26 NAL=2 Slice:P Poc:38  I:222  P:791  SKIP:7147 size=9171 bytes
+frame=  219 fps= 68 q=26.0 size=    1280kB time=00:00:13.75 bitrate= 762.6kbits/s speed=4.28x    [image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0239.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1897274 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] scene cut at 178 Icost:4652862 Pcost:4604382 ratio:0.0104 bias:0.1252 gop:32 (imb:7638 pmb:150)
+[libx264 @ 00000139aca7d100] frame= 166 QP=17.28 NAL=2 Slice:P Poc:40  I:93   P:272  SKIP:7795 size=4935 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0240.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1903069 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 167 QP=12.92 NAL=2 Slice:P Poc:42  I:7    P:67   SKIP:8086 size=252 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0241.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1903069 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 168 QP=21.86 NAL=2 Slice:P Poc:44  I:1649 P:513  SKIP:5998 size=31879 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0242.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1902609 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 169 QP=18.64 NAL=2 Slice:P Poc:46  I:1213 P:907  SKIP:6040 size=25914 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0243.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1933012 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 170 QP=18.57 NAL=2 Slice:P Poc:48  I:1342 P:975  SKIP:5843 size=28253 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0244.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1933012 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 171 QP=16.81 NAL=2 Slice:P Poc:50  I:417  P:1833 SKIP:5910 size=15253 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0245.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1933012 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 172 QP=18.67 NAL=2 Slice:P Poc:52  I:122  P:1162 SKIP:6876 size=11688 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0246.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1933012 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 173 QP=21.37 NAL=2 Slice:P Poc:54  I:145  P:654  SKIP:7361 size=7764 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0247.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1931322 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 174 QP=18.15 NAL=2 Slice:P Poc:56  I:48   P:277  SKIP:7835 size=4119 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0248.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1931322 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 175 QP=20.71 NAL=2 Slice:P Poc:58  I:876  P:232  SKIP:7052 size=21256 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0249.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 176 QP=14.51 NAL=2 Slice:P Poc:60  I:4    P:80   SKIP:8076 size=380 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0250.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 177 QP=15.24 NAL=2 Slice:P Poc:62  I:8    P:131  SKIP:8021 size=469 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0251.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 178 QP=11.46 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=265327 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0252.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 179 QP=14.64 NAL=2 Slice:P Poc:2   I:27   P:855  SKIP:7278 size=4471 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0253.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 180 QP=11.21 NAL=2 Slice:P Poc:4   I:17   P:555  SKIP:7588 size=2634 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0254.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 181 QP=11.56 NAL=2 Slice:P Poc:6   I:20   P:519  SKIP:7621 size=2887 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0255.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 182 QP=10.76 NAL=2 Slice:P Poc:8   I:16   P:460  SKIP:7684 size=2150 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0256.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 183 QP=10.76 NAL=2 Slice:P Poc:10  I:14   P:455  SKIP:7691 size=2099 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0257.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 184 QP=12.80 NAL=2 Slice:P Poc:12  I:33   P:540  SKIP:7587 size=4971 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0258.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 185 QP=10.68 NAL=2 Slice:P Poc:14  I:13   P:459  SKIP:7688 size=2095 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0259.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 186 QP=10.69 NAL=2 Slice:P Poc:16  I:10   P:459  SKIP:7691 size=2071 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0260.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 187 QP=10.24 NAL=2 Slice:P Poc:18  I:13   P:450  SKIP:7697 size=2069 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0261.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1931526 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 188 QP=14.73 NAL=2 Slice:P Poc:20  I:712  P:968  SKIP:6480 size=42741 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0262.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 189 QP=12.67 NAL=2 Slice:P Poc:22  I:20   P:581  SKIP:7559 size=2761 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0263.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 190 QP=10.99 NAL=2 Slice:P Poc:24  I:16   P:490  SKIP:7654 size=2248 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0264.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 191 QP=12.98 NAL=2 Slice:P Poc:26  I:47   P:572  SKIP:7541 size=6627 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0265.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 192 QP=11.02 NAL=2 Slice:P Poc:28  I:14   P:499  SKIP:7647 size=2237 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0266.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 193 QP=10.86 NAL=2 Slice:P Poc:30  I:17   P:472  SKIP:7671 size=2252 bytes
+frame=  247 fps= 67 q=26.0 size=    1792kB time=00:00:16.08 bitrate= 912.8kbits/s speed=4.33x    [image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0267.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505112 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 194 QP=12.32 NAL=2 Slice:P Poc:32  I:239  P:550  SKIP:7371 size=15315 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0268.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1500657 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 195 QP=12.82 NAL=2 Slice:P Poc:34  I:17   P:510  SKIP:7633 size=2502 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0269.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1500657 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 196 QP=11.21 NAL=2 Slice:P Poc:36  I:12   P:482  SKIP:7666 size=2212 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0270.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1495032 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 197 QP=12.97 NAL=2 Slice:P Poc:38  I:46   P:671  SKIP:7443 size=10820 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0271.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1495032 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 198 QP=12.22 NAL=2 Slice:P Poc:40  I:15   P:493  SKIP:7652 size=2197 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0272.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1495032 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 199 QP=12.16 NAL=2 Slice:P Poc:42  I:31   P:506  SKIP:7623 size=3261 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0273.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1495032 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 200 QP=11.24 NAL=2 Slice:P Poc:44  I:12   P:485  SKIP:7663 size=2164 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0274.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1495032 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 201 QP=11.75 NAL=2 Slice:P Poc:46  I:15   P:507  SKIP:7638 size=2492 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0275.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1500657 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 202 QP=11.49 NAL=2 Slice:P Poc:48  I:12   P:485  SKIP:7663 size=2164 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0276.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1500657 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 203 QP=12.01 NAL=2 Slice:P Poc:50  I:14   P:489  SKIP:7657 size=2370 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0277.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505142 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 204 QP=11.39 NAL=2 Slice:P Poc:52  I:13   P:483  SKIP:7664 size=2120 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0278.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505142 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 205 QP=11.38 NAL=2 Slice:P Poc:54  I:13   P:474  SKIP:7673 size=2085 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0279.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505142 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 206 QP=11.36 NAL=2 Slice:P Poc:56  I:12   P:475  SKIP:7673 size=2112 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0280.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505142 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 207 QP=14.18 NAL=2 Slice:P Poc:58  I:31   P:639  SKIP:7490 size=9079 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0281.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505142 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 208 QP=12.33 NAL=2 Slice:P Poc:60  I:12   P:504  SKIP:7644 size=2265 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0282.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505142 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 209 QP=11.74 NAL=2 Slice:P Poc:62  I:14   P:476  SKIP:7670 size=2210 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0283.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505142 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 210 QP=11.30 NAL=2 Slice:P Poc:64  I:11   P:473  SKIP:7676 size=2252 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0284.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505142 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 211 QP=11.40 NAL=2 Slice:P Poc:66  I:15   P:472  SKIP:7673 size=2147 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0285.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505142 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 212 QP=11.86 NAL=2 Slice:P Poc:68  I:14   P:474  SKIP:7672 size=2237 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0286.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505142 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 213 QP=12.62 NAL=2 Slice:P Poc:70  I:52   P:673  SKIP:7435 size=10657 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0287.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505142 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 214 QP=11.43 NAL=2 Slice:P Poc:72  I:14   P:488  SKIP:7658 size=2208 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0288.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1505142 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 215 QP=11.55 NAL=2 Slice:P Poc:74  I:16   P:490  SKIP:7654 size=2709 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0289.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1755582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 216 QP=13.40 NAL=2 Slice:P Poc:76  I:204  P:556  SKIP:7400 size=9208 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0290.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1755582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 217 QP=11.57 NAL=2 Slice:P Poc:78  I:15   P:489  SKIP:7656 size=2208 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0291.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1755582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 218 QP=11.33 NAL=2 Slice:P Poc:80  I:13   P:472  SKIP:7675 size=2156 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0292.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1755582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 219 QP=11.09 NAL=2 Slice:P Poc:82  I:10   P:455  SKIP:7695 size=2192 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0293.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1755582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 220 QP=11.03 NAL=2 Slice:P Poc:84  I:12   P:449  SKIP:7699 size=2174 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0294.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1755582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 221 QP=12.03 NAL=2 Slice:P Poc:86  I:24   P:499  SKIP:7637 size=3299 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0295.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1755582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 222 QP=11.03 NAL=2 Slice:P Poc:88  I:13   P:451  SKIP:7696 size=2308 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0296.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1755582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 223 QP=14.83 NAL=2 Slice:P Poc:90  I:344  P:850  SKIP:6966 size=21438 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0297.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1755582 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 224 QP=13.81 NAL=2 Slice:P Poc:92  I:17   P:500  SKIP:7643 size=2491 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0298.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1752091 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 225 QP=12.26 NAL=2 Slice:P Poc:94  I:5    P:418  SKIP:7737 size=2157 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0299.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1752091 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 226 QP=11.87 NAL=2 Slice:P Poc:96  I:9    P:427  SKIP:7724 size=2085 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0300.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1752091 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 227 QP=11.76 NAL=2 Slice:P Poc:98  I:8    P:431  SKIP:7721 size=2045 bytes
+frame=  281 fps= 66 q=26.0 size=    2048kB time=00:00:18.91 bitrate= 886.9kbits/s speed=4.48x    [image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0301.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1752091 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 228 QP=13.38 NAL=2 Slice:P Poc:100 I:36   P:630  SKIP:7494 size=9040 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0302.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 229 QP=11.61 NAL=2 Slice:P Poc:102 I:10   P:409  SKIP:7741 size=1889 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0303.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 230 QP=11.76 NAL=2 Slice:P Poc:104 I:14   P:395  SKIP:7751 size=2411 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0304.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 231 QP=15.94 NAL=2 Slice:P Poc:106 I:341  P:791  SKIP:7028 size=26695 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0305.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 232 QP=13.37 NAL=2 Slice:P Poc:108 I:16   P:427  SKIP:7717 size=2055 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0306.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 233 QP=11.81 NAL=2 Slice:P Poc:110 I:7    P:363  SKIP:7790 size=1564 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0307.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 234 QP=11.23 NAL=2 Slice:P Poc:112 I:10   P:293  SKIP:7857 size=1292 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0308.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 235 QP=12.03 NAL=2 Slice:P Poc:114 I:30   P:348  SKIP:7782 size=3022 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0309.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 236 QP=11.11 NAL=2 Slice:P Poc:116 I:9    P:352  SKIP:7799 size=1541 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0310.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 237 QP=11.87 NAL=2 Slice:P Poc:118 I:10   P:471  SKIP:7679 size=2396 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0311.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] scene cut at 250 Icost:2992937 Pcost:2954289 ratio:0.0129 bias:0.1756 gop:72 (imb:7668 pmb:120)
+[libx264 @ 00000139aca7d100] frame= 238 QP=11.17 NAL=2 Slice:P Poc:120 I:16   P:417  SKIP:7727 size=1738 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0312.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 239 QP=11.38 NAL=2 Slice:P Poc:122 I:15   P:320  SKIP:7825 size=1323 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0313.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 240 QP=11.17 NAL=2 Slice:P Poc:124 I:7    P:326  SKIP:7827 size=1376 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0314.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 241 QP=10.89 NAL=2 Slice:P Poc:126 I:8    P:325  SKIP:7827 size=1403 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0315.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 242 QP=11.44 NAL=2 Slice:P Poc:128 I:7    P:268  SKIP:7885 size=944 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0316.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 243 QP=11.49 NAL=2 Slice:P Poc:130 I:8    P:143  SKIP:8009 size=589 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0317.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 244 QP=11.46 NAL=2 Slice:P Poc:132 I:0    P:130  SKIP:8030 size=508 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0318.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 245 QP=11.66 NAL=2 Slice:P Poc:134 I:0    P:27   SKIP:8133 size=150 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0319.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 246 QP=12.63 NAL=2 Slice:P Poc:136 I:4    P:16   SKIP:8140 size=118 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0320.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1760559 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 247 QP=10.20 NAL=2 Slice:P Poc:138 I:4    P:10   SKIP:8146 size=120 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0321.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1512725 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 248 QP=9.74 NAL=2 Slice:P Poc:140 I:4    P:6    SKIP:8150 size=155 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0322.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1512725 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 249 QP=9.84 NAL=2 Slice:P Poc:142 I:6    P:8    SKIP:8146 size=231 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0323.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1512725 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 250 QP=10.46 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=214459 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0324.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1513609 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 251 QP=14.14 NAL=2 Slice:P Poc:2   I:1    P:503  SKIP:7656 size=2021 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0325.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1513609 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 252 QP=11.76 NAL=2 Slice:P Poc:4   I:0    P:220  SKIP:7940 size=814 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0326.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1513609 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 253 QP=11.36 NAL=2 Slice:P Poc:6   I:0    P:158  SKIP:8002 size=615 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0327.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1513609 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 254 QP=10.99 NAL=2 Slice:P Poc:8   I:0    P:141  SKIP:8019 size=550 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0328.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1513609 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 255 QP=11.18 NAL=2 Slice:P Poc:10  I:0    P:149  SKIP:8011 size=559 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0329.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1513788 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 256 QP=11.59 NAL=2 Slice:P Poc:12  I:23   P:182  SKIP:7955 size=1671 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0330.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1513788 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 257 QP=11.21 NAL=2 Slice:P Poc:14  I:0    P:119  SKIP:8041 size=461 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0331.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1513788 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 258 QP=12.15 NAL=2 Slice:P Poc:16  I:42   P:147  SKIP:7971 size=1763 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0332.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1513788 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 259 QP=11.83 NAL=2 Slice:P Poc:18  I:0    P:118  SKIP:8042 size=458 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0333.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1513788 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 260 QP=11.78 NAL=2 Slice:P Poc:20  I:0    P:112  SKIP:8048 size=427 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0334.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1513788 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 261 QP=11.78 NAL=2 Slice:P Poc:22  I:0    P:106  SKIP:8054 size=408 bytes
+frame=  315 fps= 67 q=26.0 size=    2304kB time=00:00:21.75 bitrate= 867.8kbits/s speed= 4.6x    [image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0335.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1514074 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 262 QP=11.86 NAL=2 Slice:P Poc:24  I:0    P:105  SKIP:8055 size=405 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0336.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1514074 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 263 QP=12.83 NAL=2 Slice:P Poc:26  I:58   P:101  SKIP:8001 size=3479 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0337.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1514074 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 264 QP=11.78 NAL=2 Slice:P Poc:28  I:1    P:81   SKIP:8078 size=342 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0338.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1514074 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] scene cut at 277 Icost:2712576 Pcost:2695357 ratio:0.0063 bias:0.1189 gop:27 (imb:7735 pmb:53)
+[libx264 @ 00000139aca7d100] frame= 265 QP=12.99 NAL=2 Slice:P Poc:30  I:47   P:95   SKIP:8018 size=3606 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0339.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1514074 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 266 QP=12.76 NAL=2 Slice:P Poc:32  I:1    P:32   SKIP:8127 size=182 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0340.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1514074 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 267 QP=12.37 NAL=2 Slice:P Poc:34  I:0    P:23   SKIP:8137 size=113 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0341.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1514074 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 268 QP=12.06 NAL=2 Slice:P Poc:36  I:0    P:21   SKIP:8139 size=104 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0342.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1514074 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 269 QP=12.45 NAL=2 Slice:P Poc:38  I:0    P:19   SKIP:8141 size=95 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0343.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1514074 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 270 QP=13.93 NAL=2 Slice:P Poc:40  I:0    P:13   SKIP:8147 size=72 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0344.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1514074 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 271 QP=15.03 NAL=2 Slice:P Poc:42  I:0    P:7    SKIP:8153 size=41 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0345.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1532655 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 272 QP=17.23 NAL=2 Slice:P Poc:44  I:0    P:3    SKIP:8157 size=26 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0346.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1532655 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 273 QP=18.88 NAL=2 Slice:P Poc:46  I:0    P:2    SKIP:8158 size=20 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0347.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1532655 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 274 QP=19.88 NAL=2 Slice:P Poc:48  I:0    P:2    SKIP:8158 size=20 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0348.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1532655 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 275 QP=15.48 NAL=2 Slice:P Poc:50  I:0    P:2    SKIP:8158 size=26 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0349.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1564089 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 276 QP=21.38 NAL=2 Slice:P Poc:52  I:1    P:0    SKIP:8159 size=25 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0350.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1564089 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 277 QP=10.80 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=185838 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0351.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1564089 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 278 QP=14.22 NAL=2 Slice:P Poc:2   I:84   P:1044 SKIP:7032 size=5372 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0352.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1564089 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 279 QP=11.66 NAL=2 Slice:P Poc:4   I:40   P:747  SKIP:7373 size=3475 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0353.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1930852 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 280 QP=11.08 NAL=2 Slice:P Poc:6   I:36   P:659  SKIP:7465 size=3431 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0354.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 1930852 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 281 QP=10.94 NAL=2 Slice:P Poc:8   I:43   P:616  SKIP:7501 size=3344 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0355.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1930852 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 282 QP=10.94 NAL=2 Slice:P Poc:10  I:39   P:661  SKIP:7460 size=3443 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0356.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1930852 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 283 QP=10.91 NAL=2 Slice:P Poc:12  I:33   P:628  SKIP:7499 size=3216 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0357.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1930844 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 284 QP=10.90 NAL=2 Slice:P Poc:14  I:35   P:610  SKIP:7515 size=3117 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0358.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1930844 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 285 QP=11.03 NAL=2 Slice:P Poc:16  I:43   P:643  SKIP:7474 size=3122 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0359.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1930844 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 286 QP=12.89 NAL=2 Slice:P Poc:18  I:115  P:789  SKIP:7256 size=8691 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0360.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1930844 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 287 QP=11.75 NAL=2 Slice:P Poc:20  I:42   P:672  SKIP:7446 size=3060 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0361.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1947928 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 288 QP=10.98 NAL=2 Slice:P Poc:22  I:42   P:660  SKIP:7458 size=2917 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0362.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1947928 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 289 QP=10.97 NAL=2 Slice:P Poc:24  I:40   P:659  SKIP:7461 size=2858 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0363.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 1947928 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 290 QP=14.03 NAL=2 Slice:P Poc:26  I:108  P:790  SKIP:7262 size=10218 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0364.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 1947928 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 291 QP=12.22 NAL=2 Slice:P Poc:28  I:31   P:685  SKIP:7444 size=2884 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0365.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2092610 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 292 QP=11.53 NAL=2 Slice:P Poc:30  I:37   P:597  SKIP:7526 size=2282 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0366.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 2092610 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 293 QP=11.46 NAL=2 Slice:P Poc:32  I:32   P:361  SKIP:7767 size=1594 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0367.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2092610 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 294 QP=11.51 NAL=2 Slice:P Poc:34  I:35   P:338  SKIP:7787 size=1463 bytes
+frame=  348 fps= 67 q=26.0 size=    2560kB time=00:00:24.50 bitrate= 856.0kbits/s speed=4.68x    [image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0368.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 2092610 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 295 QP=11.78 NAL=2 Slice:P Poc:36  I:20   P:317  SKIP:7823 size=1219 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0369.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2142506 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 296 QP=11.67 NAL=2 Slice:P Poc:38  I:31   P:309  SKIP:7820 size=1291 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0370.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 2142506 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] scene cut at 309 Icost:2985110 Pcost:2953062 ratio:0.0107 bias:0.1252 gop:32 (imb:7687 pmb:101)
+[libx264 @ 00000139aca7d100] frame= 297 QP=11.67 NAL=2 Slice:P Poc:40  I:28   P:289  SKIP:7843 size=1188 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0371.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2142506 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 298 QP=11.08 NAL=2 Slice:P Poc:42  I:33   P:606  SKIP:7521 size=2588 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0372.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 299 QP=10.99 NAL=2 Slice:P Poc:44  I:26   P:588  SKIP:7546 size=2459 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0373.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 300 QP=11.04 NAL=2 Slice:P Poc:46  I:28   P:541  SKIP:7591 size=2286 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0374.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 301 QP=12.00 NAL=2 Slice:P Poc:48  I:14   P:452  SKIP:7694 size=1613 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0375.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 302 QP=11.91 NAL=2 Slice:P Poc:50  I:18   P:291  SKIP:7851 size=1125 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0376.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 303 QP=11.37 NAL=2 Slice:P Poc:52  I:4    P:54   SKIP:8102 size=253 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0377.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 304 QP=10.07 NAL=2 Slice:P Poc:54  I:4    P:41   SKIP:8115 size=212 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0378.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 305 QP=9.49 NAL=2 Slice:P Poc:56  I:6    P:11   SKIP:8143 size=157 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0379.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 306 QP=8.69 NAL=2 Slice:P Poc:58  I:7    P:13   SKIP:8140 size=217 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0380.png' for reading
+[file @ 00000139ac00b880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 307 QP=8.97 NAL=2 Slice:P Poc:60  I:8    P:13   SKIP:8139 size=204 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0381.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 308 QP=10.91 NAL=2 Slice:P Poc:62  I:9    P:14   SKIP:8137 size=269 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0382.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 309 QP=10.37 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=218347 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0383.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 310 QP=14.27 NAL=2 Slice:P Poc:2   I:0    P:481  SKIP:7679 size=1969 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0384.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 311 QP=11.97 NAL=2 Slice:P Poc:4   I:0    P:171  SKIP:7989 size=657 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0385.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 312 QP=12.82 NAL=2 Slice:P Poc:6   I:39   P:140  SKIP:7981 size=3100 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0386.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 313 QP=12.17 NAL=2 Slice:P Poc:8   I:0    P:117  SKIP:8043 size=516 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0387.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 314 QP=12.21 NAL=2 Slice:P Poc:10  I:0    P:110  SKIP:8050 size=429 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0388.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 315 QP=12.18 NAL=2 Slice:P Poc:12  I:0    P:99   SKIP:8061 size=396 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0389.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 316 QP=12.17 NAL=2 Slice:P Poc:14  I:0    P:95   SKIP:8065 size=376 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0390.png' for reading
+[file @ 00000139ac00b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 317 QP=13.01 NAL=2 Slice:P Poc:16  I:17   P:115  SKIP:8028 size=1429 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0391.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 318 QP=12.68 NAL=2 Slice:P Poc:18  I:0    P:101  SKIP:8059 size=409 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0392.png' for reading
+[file @ 00000139ac00b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 319 QP=12.36 NAL=2 Slice:P Poc:20  I:0    P:97   SKIP:8063 size=376 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0393.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 320 QP=12.47 NAL=2 Slice:P Poc:22  I:0    P:93   SKIP:8067 size=363 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0394.png' for reading
+[file @ 00000139ac00b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ab00] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 321 QP=12.56 NAL=2 Slice:P Poc:24  I:0    P:89   SKIP:8071 size=349 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0395.png' for reading
+[file @ 00000139ac00b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127ac80] Statistics: 2245943 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 322 QP=11.98 NAL=2 Slice:P Poc:26  I:0    P:93   SKIP:8067 size=365 bytes
+[image2 @ 00000139ac0033c0] Opening 'C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame0396.png' for reading
+[file @ 00000139ac00b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000139b127a980] Statistics: 2408752 bytes read, 0 seeks
+[libx264 @ 00000139aca7d100] frame= 323 QP=12.76 NAL=2 Slice:P Poc:28  I:19   P:109  SKIP:8032 size=1407 bytes
+[libx264 @ 00000139aca7d100] frame= 324 QP=12.21 NAL=2 Slice:P Poc:30  I:0    P:85   SKIP:8075 size=344 bytes
+[libx264 @ 00000139aca7d100] frame= 325 QP=12.03 NAL=2 Slice:P Poc:32  I:0    P:61   SKIP:8099 size=251 bytes
+[libx264 @ 00000139aca7d100] frame= 326 QP=12.13 NAL=2 Slice:P Poc:34  I:0    P:40   SKIP:8120 size=174 bytes
+frame=  380 fps= 66 q=26.0 size=    2816kB time=00:00:27.16 bitrate= 849.2kbits/s speed=4.73x    [libx264 @ 00000139aca7d100] frame= 327 QP=12.19 NAL=2 Slice:P Poc:36  I:0    P:36   SKIP:8124 size=158 bytes
+[libx264 @ 00000139aca7d100] frame= 328 QP=12.85 NAL=2 Slice:P Poc:38  I:0    P:27   SKIP:8133 size=122 bytes
+[libx264 @ 00000139aca7d100] scene cut at 341 Icost:4704629 Pcost:4650647 ratio:0.0115 bias:0.1252 gop:32 (imb:7620 pmb:168)
+[libx264 @ 00000139aca7d100] frame= 329 QP=13.13 NAL=2 Slice:P Poc:40  I:0    P:17   SKIP:8143 size=81 bytes
+[libx264 @ 00000139aca7d100] frame= 330 QP=11.38 NAL=2 Slice:P Poc:42  I:0    P:17   SKIP:8143 size=91 bytes
+[libx264 @ 00000139aca7d100] frame= 331 QP=11.49 NAL=2 Slice:P Poc:44  I:0    P:16   SKIP:8144 size=86 bytes
+[out_0_0 @ 00000139ace20780] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[libx264 @ 00000139aca7d100] frame= 332 QP=12.24 NAL=2 Slice:P Poc:46  I:0    P:14   SKIP:8146 size=82 bytes
+[libx264 @ 00000139aca7d100] frame= 333 QP=19.40 NAL=2 Slice:P Poc:48  I:2627 P:493  SKIP:5040 size=57184 bytes
+[libx264 @ 00000139aca7d100] frame= 334 QP=19.68 NAL=2 Slice:P Poc:50  I:16   P:288  SKIP:7856 size=1135 bytes
+[libx264 @ 00000139aca7d100] frame= 335 QP=16.91 NAL=2 Slice:P Poc:52  I:4    P:56   SKIP:8100 size=221 bytes
+[libx264 @ 00000139aca7d100] frame= 336 QP=16.05 NAL=2 Slice:P Poc:54  I:1    P:22   SKIP:8137 size=101 bytes
+[libx264 @ 00000139aca7d100] frame= 337 QP=18.71 NAL=2 Slice:P Poc:56  I:129  P:89   SKIP:7942 size=4261 bytes
+[libx264 @ 00000139aca7d100] frame= 338 QP=17.52 NAL=2 Slice:P Poc:58  I:0    P:37   SKIP:8123 size=133 bytes
+[libx264 @ 00000139aca7d100] frame= 339 QP=14.44 NAL=2 Slice:P Poc:60  I:1    P:10   SKIP:8149 size=68 bytes
+[libx264 @ 00000139aca7d100] frame= 340 QP=17.51 NAL=2 Slice:P Poc:62  I:1    P:8    SKIP:8151 size=66 bytes
+[libx264 @ 00000139aca7d100] frame= 341 QP=12.38 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=237544 bytes
+[libx264 @ 00000139aca7d100] frame= 342 QP=15.00 NAL=2 Slice:P Poc:2   I:40   P:783  SKIP:7337 size=3956 bytes
+[libx264 @ 00000139aca7d100] frame= 343 QP=12.38 NAL=2 Slice:P Poc:4   I:17   P:517  SKIP:7626 size=2422 bytes
+[libx264 @ 00000139aca7d100] frame= 344 QP=10.92 NAL=2 Slice:P Poc:6   I:17   P:466  SKIP:7677 size=2154 bytes
+[libx264 @ 00000139aca7d100] frame= 345 QP=12.93 NAL=2 Slice:P Poc:8   I:13   P:437  SKIP:7710 size=2032 bytes
+[libx264 @ 00000139aca7d100] frame= 346 QP=10.64 NAL=2 Slice:P Poc:10  I:9    P:419  SKIP:7732 size=1932 bytes
+[libx264 @ 00000139aca7d100] frame= 347 QP=10.62 NAL=2 Slice:P Poc:12  I:9    P:405  SKIP:7746 size=1872 bytes
+[libx264 @ 00000139aca7d100] frame= 348 QP=10.24 NAL=2 Slice:P Poc:14  I:7    P:396  SKIP:7757 size=1961 bytes
+[libx264 @ 00000139aca7d100] frame= 349 QP=17.59 NAL=2 Slice:P Poc:16  I:2285 P:914  SKIP:4961 size=79538 bytes
+[libx264 @ 00000139aca7d100] frame= 350 QP=15.43 NAL=2 Slice:P Poc:18  I:14   P:621  SKIP:7525 size=2767 bytes
+[libx264 @ 00000139aca7d100] frame= 351 QP=12.36 NAL=2 Slice:P Poc:20  I:8    P:454  SKIP:7698 size=2038 bytes
+[libx264 @ 00000139aca7d100] frame= 352 QP=11.37 NAL=2 Slice:P Poc:22  I:7    P:420  SKIP:7733 size=2049 bytes
+[libx264 @ 00000139aca7d100] frame= 353 QP=17.26 NAL=2 Slice:P Poc:24  I:2592 P:1039 SKIP:4529 size=112524 bytes
+[libx264 @ 00000139aca7d100] frame= 354 QP=14.49 NAL=2 Slice:P Poc:26  I:23   P:661  SKIP:7476 size=2969 bytes
+[libx264 @ 00000139aca7d100] frame= 355 QP=12.27 NAL=2 Slice:P Poc:28  I:15   P:483  SKIP:7662 size=2277 bytes
+[libx264 @ 00000139aca7d100] frame= 356 QP=11.83 NAL=2 Slice:P Poc:30  I:14   P:480  SKIP:7666 size=2177 bytes
+[libx264 @ 00000139aca7d100] frame= 357 QP=14.34 NAL=2 Slice:P Poc:32  I:2082 P:907  SKIP:5171 size=57251 bytes
+[libx264 @ 00000139aca7d100] frame= 358 QP=12.64 NAL=2 Slice:P Poc:34  I:45   P:762  SKIP:7353 size=3494 bytes
+[libx264 @ 00000139aca7d100] frame= 359 QP=11.46 NAL=2 Slice:P Poc:36  I:31   P:560  SKIP:7569 size=2712 bytes
+[libx264 @ 00000139aca7d100] frame= 360 QP=12.82 NAL=2 Slice:P Poc:38  I:817  P:799  SKIP:6544 size=37747 bytes
+[libx264 @ 00000139aca7d100] frame= 361 QP=12.95 NAL=2 Slice:P Poc:40  I:32   P:622  SKIP:7506 size=2988 bytes
+[libx264 @ 00000139aca7d100] frame= 362 QP=11.35 NAL=2 Slice:P Poc:42  I:26   P:525  SKIP:7609 size=2533 bytes
+[libx264 @ 00000139aca7d100] frame= 363 QP=11.36 NAL=2 Slice:P Poc:44  I:33   P:505  SKIP:7622 size=2343 bytes
+[libx264 @ 00000139aca7d100] frame= 364 QP=11.27 NAL=2 Slice:P Poc:46  I:31   P:471  SKIP:7658 size=2190 bytes
+[libx264 @ 00000139aca7d100] frame= 365 QP=11.41 NAL=2 Slice:P Poc:48  I:24   P:461  SKIP:7675 size=2100 bytes
+[libx264 @ 00000139aca7d100] frame= 366 QP=11.36 NAL=2 Slice:P Poc:50  I:32   P:445  SKIP:7683 size=2043 bytes
+[libx264 @ 00000139aca7d100] frame= 367 QP=11.44 NAL=2 Slice:P Poc:52  I:27   P:423  SKIP:7710 size=1864 bytes
+[libx264 @ 00000139aca7d100] frame= 368 QP=11.57 NAL=2 Slice:P Poc:54  I:19   P:421  SKIP:7720 size=1922 bytes
+[libx264 @ 00000139aca7d100] frame= 369 QP=11.36 NAL=2 Slice:P Poc:56  I:23   P:396  SKIP:7741 size=1782 bytes
+[libx264 @ 00000139aca7d100] frame= 370 QP=11.35 NAL=2 Slice:P Poc:58  I:29   P:386  SKIP:7745 size=1708 bytes
+[libx264 @ 00000139aca7d100] frame= 371 QP=11.46 NAL=2 Slice:P Poc:60  I:30   P:372  SKIP:7758 size=1641 bytes
+[libx264 @ 00000139aca7d100] frame= 372 QP=11.80 NAL=2 Slice:P Poc:62  I:20   P:416  SKIP:7724 size=1728 bytes
+[libx264 @ 00000139aca7d100] frame= 373 QP=11.76 NAL=2 Slice:P Poc:64  I:18   P:379  SKIP:7763 size=1596 bytes
+[libx264 @ 00000139aca7d100] frame= 374 QP=11.67 NAL=2 Slice:P Poc:66  I:24   P:371  SKIP:7765 size=1558 bytes
+[libx264 @ 00000139aca7d100] frame= 375 QP=11.62 NAL=2 Slice:P Poc:68  I:17   P:379  SKIP:7764 size=1634 bytes
+[libx264 @ 00000139aca7d100] frame= 376 QP=11.15 NAL=2 Slice:P Poc:70  I:29   P:387  SKIP:7744 size=1699 bytes
+[libx264 @ 00000139aca7d100] frame= 377 QP=12.02 NAL=2 Slice:P Poc:72  I:8    P:363  SKIP:7789 size=1266 bytes
+[libx264 @ 00000139aca7d100] frame= 378 QP=12.44 NAL=2 Slice:P Poc:74  I:10   P:144  SKIP:8006 size=575 bytes
+[libx264 @ 00000139aca7d100] frame= 379 QP=12.76 NAL=2 Slice:P Poc:76  I:0    P:82   SKIP:8078 size=312 bytes
+[libx264 @ 00000139aca7d100] frame= 380 QP=14.09 NAL=2 Slice:P Poc:78  I:0    P:37   SKIP:8123 size=162 bytes
+[libx264 @ 00000139aca7d100] frame= 381 QP=13.96 NAL=2 Slice:P Poc:80  I:0    P:7    SKIP:8153 size=43 bytes
+[libx264 @ 00000139aca7d100] frame= 382 QP=16.50 NAL=2 Slice:P Poc:82  I:9    P:8    SKIP:8143 size=72 bytes
+[libx264 @ 00000139aca7d100] frame= 383 QP=17.89 NAL=2 Slice:P Poc:84  I:0    P:3    SKIP:8157 size=26 bytes
+[libx264 @ 00000139aca7d100] frame= 384 QP=20.18 NAL=2 Slice:P Poc:86  I:1014 P:526  SKIP:6620 size=17777 bytes
+frame=  385 fps= 62 q=-1.0 Lsize=    3566kB time=00:00:32.00 bitrate= 912.8kbits/s speed=5.14x    
+[AVIOContext @ 00000139abfc3040] Statistics: 2559 bytes written, 0 seeks, 13 writeouts
+video:3563kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.068079%
+Input file #0 (C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/frame%04d.png):
+  Input stream #0:0 (video): 385 packets read (588600666 bytes); 385 frames decoded; 
+  Total: 385 packets (588600666 bytes) demuxed
+Output file #0 (C:/Users/jodij/OneDrive/Documents/GitHub/WSOA4124_Animation_StereoHearts/Final Animation Pieces/Cafe Animation 2.mp4):
+  Output stream #0:0 (video): 385 frames encoded; 385 packets muxed (3648708 bytes); 
+  Total: 385 packets (3648708 bytes) muxed
+[AVIOContext @ 00000139aca80240] Statistics: 3651196 bytes written, 2 seeks, 17 writeouts
+385 frames successfully decoded, 0 decoding errors
+[libx264 @ 00000139aca7d100] frame I:11    Avg QP:10.99  size:187795
+[libx264 @ 00000139aca7d100] frame P:374   Avg QP:13.17  size:  4231
+[libx264 @ 00000139aca7d100] mb I  I16..4: 47.7%  0.0% 52.3%
+[libx264 @ 00000139aca7d100] mb P  I16..4:  0.8%  0.0%  0.7%  P16..4:  3.0%  0.3%  0.2%  0.0%  0.0%    skip:95.0%
+[libx264 @ 00000139aca7d100] coded y,uvDC,uvAC intra: 48.3% 50.0% 46.0% inter: 1.2% 0.4% 0.1%
+[libx264 @ 00000139aca7d100] i16 v,h,dc,p: 77% 15%  7%  1%
+[libx264 @ 00000139aca7d100] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 33% 25% 17%  4%  4%  5%  4%  3%  4%
+[libx264 @ 00000139aca7d100] i8c dc,h,v,p: 61% 20% 16%  3%
+[libx264 @ 00000139aca7d100] ref P L0: 86.8%  7.5%  5.8%
+[libx264 @ 00000139aca7d100] kb/s:909.65
