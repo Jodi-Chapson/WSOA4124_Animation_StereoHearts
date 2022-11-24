@@ -1,0 +1,43 @@
+{
+  "version": "3.0.0",
+  "aspectRatio": "1.7777777777777777",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "layers": {
+        "reference": {
+          "url": "board-16-17G26-reference.png",
+          "opacity": 0.75
+        },
+        "shot-generator": {
+          "url": "board-16-17G26-shot-generator.png",
+          "opacity": 0.75
+        },
+        "fill": {
+          "url": "board-16-17G26-fill.png"
+        },
+        "tone": {
+          "url": "board-16-17G26-tone.png"
+        },
+        "pencil": {
+          "url": "board-16-17G26-pencil.png"
+        },
+        "ink": {
+          "url": "board-16-17G26-ink.png"
+        },
+        "notes": {
+          "url": "board-16-17G26-notes.png"
+        }
+      },
+      "uid": "17G26",
+      "newShot": false,
+      "lastEdited": 1647632273695,
+      "url": "board-16-17G26.png",
+      "number": 1,
+      "shot": "1A",
+      "time": 0,
+      "lineMileage": 4699.824084212196
+    }
+  ]
+}
